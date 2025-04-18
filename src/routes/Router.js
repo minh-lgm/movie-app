@@ -7,7 +7,7 @@ import FormPage from "../pages/Form";
 import MovieDetail from "../pages/MovieDetail";
 import FavoritePage from "../pages/Favorite";
 import NoMatch from "../pages/NoMatch";
-import { useAuth } from "../contexts/AuthContext";
+
 
 function Router() {
   let location = useLocation();
