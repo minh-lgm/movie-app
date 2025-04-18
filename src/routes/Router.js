@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Routes, Route, useLocation, Navigate } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
 import Homepage from "../pages/HomePage";
 import Discovery from "../pages/Discovery";

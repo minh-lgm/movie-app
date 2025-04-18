@@ -46,7 +46,7 @@ export default function Form() {
 
   const {
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { isSubmitting },
   } = methods;
 
   const [showPassword, setShowPassword] = useState(false);
